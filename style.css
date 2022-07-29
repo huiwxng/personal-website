@@ -1,0 +1,128 @@
+html {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    margin: -10px;
+    margin-bottom: 0px;
+}
+
+#navbar1 {
+    margin: 10px;
+}
+
+#logo {
+    width: 20%;
+}
+
+#logo:hover {
+    border: 1px solid white;
+}
+
+#navbar2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.items {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.items:hover {
+    border: 1px solid white;
+}
+
+#banner {
+
+}
+
+.main {
+
+}
+
+.left {
+
+}
+
+#about {
+
+}
+
+#about_picture {
+
+}
+
+#about_text {
+    color: black;
+}
+
+#contact_info {
+
+}
+
+.contacts {
+
+}
+
+.contact_pictures {
+    width: 20%;
+}
+
+.contact_pictures:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.contact_text {
+    color: black;
+}
+
+#portfolio {
+
+}
+
+#github {
+
+}
+
+.projects {
+
+}
+
+.project_images {
+
+}
+
+.project_images:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.project_descriptions {
+    color: black;
+}
+
+.project_descriptions:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+.project_descriptions:hover {
+    background-color: gray;
+    opacity: 0.8;
+}
+
+footer {
+
+}
+
+a {
+    text-decoration: none;
+}
