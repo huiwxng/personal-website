@@ -1,10 +1,10 @@
 html {
-    background-color: gray;
+    background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
-    background-color: red;
+    background-color: lightsteelblue;
     display: flex;
     justify-content: space-between;
     margin: -10px;
@@ -30,6 +30,7 @@ html {
 }
 
 .items {
+    color: blueviolet;
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
@@ -40,44 +41,78 @@ html {
 }
 
 #banner {
-
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 99.5%;
+    border: 5px solid skyblue;
 }
 
 .main {
+    display: flex;
+}
 
+.header {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 3%;
+    border: 2px solid blueviolet;
 }
 
 .left {
-
+    width: 40%;
+    margin: 10px;
 }
 
 #about {
-
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #about_picture {
-
+    width: 80%;
+    padding: 5px;
 }
 
 #about_text {
     color: black;
+    padding: 10px;
 }
 
 #contact_info {
-
+    background-color: lightblue;
+    display: flex;
+    height: 20%;
+    flex-flow: column wrap;
+    justify-content: space-around;
 }
 
 .contacts {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
+.contacts:hover {
+    background-color: skyblue;
+    opacity: 0.8;
 }
 
 .contact_pictures {
-    width: 20%;
-}
-
-.contact_pictures:hover {
-    background-color: gray;
-    opacity: 0.8;
+    width: 30px;
+    margin-right: 10px;
 }
 
 .contact_text {
@@ -85,42 +120,68 @@ html {
 }
 
 #portfolio {
-
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 #github {
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+#github:hover {
+    background-color: skyblue;
+    opacity: 0.8;
+}
+
+#project_section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 220px;
+}
 
+.projects:hover {
+    background-color: skyblue;
+    opacity: 0.8;
 }
 
 .project_images {
-
-}
-
-.project_images:hover {
-    background-color: gray;
-    opacity: 0.8;
+    align-self: center;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 160px;
+    height: 160px;
+    height: auto;
 }
 
 .project_descriptions {
     color: black;
-}
-
-.project_descriptions:hover {
-    background-color: gray;
-    opacity: 0.8;
-}
-
-.project_descriptions:hover {
-    background-color: gray;
-    opacity: 0.8;
+    text-align: center;
+    font-size: normal;
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: -5px;
 }
 
 footer {
-
+    margin: 20px;
 }
 
 a {
