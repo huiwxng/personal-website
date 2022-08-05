@@ -181,6 +181,14 @@ html {
     margin-bottom: -5px;
 }
 
+.project_repos {
+    display: none;
+}
+
+.project_pages {
+    display: none;
+}
+
 .modal {
     position: fixed;
     top: 50%;
@@ -230,6 +238,10 @@ html {
 }
 
 #popup_description {
+    padding: 10px 15px;
+}
+
+#popup_link_text {
     padding: 10px 15px;
 }
 
