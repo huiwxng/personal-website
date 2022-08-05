@@ -159,6 +159,7 @@ html {
 .projects:hover {
     background-color: skyblue;
     opacity: 0.8;
+    cursor: pointer;
 }
 
 .project_images {
@@ -171,13 +172,81 @@ html {
     height: auto;
 }
 
-.project_descriptions {
+.project_titles {
     color: black;
     text-align: center;
     font-size: normal;
     margin: 20px;
     margin-top: 5px;
     margin-bottom: -5px;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 20;
+    background-color: skyblue;
+    width: 500px;
+    max-width: 80%;
+}
+
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+#popup_header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid blueviolet;
+}
+
+#popup_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#close_button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#popup_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+
+#popup_description {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
 }
 
 footer {
